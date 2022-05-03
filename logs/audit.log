@@ -1,0 +1,4 @@
+2022-05-03 06:30:05.941 [main] INFO  com.sumsub.test.SumSubApplicantMain - Jersey: Created an applicant №1 null for data: f5224cf5-4c25-4c18-9030-d0b40db900b2
+2022-05-03 06:30:06.416 [main] INFO  com.sumsub.test.SumSubApplicantMain - Jersey: Identifier of the added document №1: null
+2022-05-03 06:30:06.604 [main] INFO  com.sumsub.test.SumSubApplicantMain - Jersey: Applicant status: null
+2022-05-03 06:30:06.826 [main] INFO  com.sumsub.test.SumSubApplicantMain - Jersey: Access token (json string): null
