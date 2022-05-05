@@ -1,6 +1,5 @@
 package com.sumsub.test.model;
 
-import java.io.Serializable;
 import java.util.UUID;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;

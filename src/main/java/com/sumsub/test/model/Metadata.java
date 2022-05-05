@@ -1,7 +1,5 @@
 package com.sumsub.test.model;
 
-import java.io.Serializable;
-
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;
@@ -17,7 +15,7 @@ import lombok.Setter;
 @Builder
 @Setter
 @Getter
-public class Metadata implements Serializable {
+public class Metadata {
 
     private DocType idDocType;
 
