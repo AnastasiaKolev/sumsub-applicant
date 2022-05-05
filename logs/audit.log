@@ -1,30 +1,30 @@
-2022-05-05 08:04:15.808 [main] INFO  com.sumsub.test.SumSubApplicantMain - [Jersey] Created an applicant: 62735acf3df22f000196e18e for externalUserId: 4b39a5bc-f038-4cf7-89c4-44e8277080a4
-2022-05-05 08:04:16.058 [main] INFO  com.sumsub.test.SumSubApplicantMain - [Feign] Created an applicant: 62735ad02d207200013b34bb for externalUserId: a333199d-fd4e-44f4-9fdd-e8aee77aee51
-2022-05-05 08:04:17.375 [main] INFO  com.sumsub.test.SumSubApplicantMain - [Jersey] Identifier of the added document: 1023608921
-2022-05-05 08:04:18.813 [main] INFO  com.sumsub.test.SumSubApplicantMain - [Feign] Identifier of the added document: 501523843
-2022-05-05 08:04:18.959 [main] INFO  com.sumsub.test.SumSubApplicantMain - [Jersey] Applicant status: {"IDENTITY":{"reviewResult":{},"country":"RUS","idDocType":"PASSPORT","imageIds":[1023608921],"imageReviewResults":{"1023608921":{}},"forbidden":false,"doubleSided":false,"stepStatuses":null}}
-2022-05-05 08:04:19.085 [main] INFO  com.sumsub.test.SumSubApplicantMain - [Feign] Applicant status (json string): {
+2022-05-12 16:07:02.659 [main] INFO  com.sumsub.test.SumSubApplicantMain - [Jersey] Created an applicant: 627d06768a50b200019afed9 for externalUserId: 4472cba0-ad93-4fa6-805b-6260a82ae0c4
+2022-05-12 16:07:02.962 [main] INFO  com.sumsub.test.SumSubApplicantMain - [Feign] Created an applicant: 627d06768a50b200019afedd for externalUserId: 487df7e2-8dad-4b56-b6c8-2817684f8e6f
+2022-05-12 16:07:04.401 [main] INFO  com.sumsub.test.SumSubApplicantMain - [Jersey] Identifier of the added document: 148732581
+2022-05-12 16:07:06.037 [main] INFO  com.sumsub.test.SumSubApplicantMain - [Feign] Identifier of the added document: 699827877
+2022-05-12 16:07:06.184 [main] INFO  com.sumsub.test.SumSubApplicantMain - [Jersey] Applicant status: {"IDENTITY":{"reviewResult":{},"country":"RUS","idDocType":"PASSPORT","imageIds":[148732581],"imageReviewResults":{"148732581":{}},"forbidden":false,"doubleSided":false,"stepStatuses":null}}
+2022-05-12 16:07:06.335 [main] INFO  com.sumsub.test.SumSubApplicantMain - [Feign] Applicant status (json string): {
   "IDENTITY" : {
     "reviewResult" : { },
     "country" : "RUS",
     "idDocType" : "PASSPORT",
-    "imageIds" : [ 501523843 ],
+    "imageIds" : [ 699827877 ],
     "imageReviewResults" : {
-      "501523843" : { }
+      "699827877" : { }
     },
     "forbidden" : false,
     "doubleSided" : false,
     "stepStatuses" : null
   }
 }
-2022-05-05 08:04:19.185 [main] INFO  com.sumsub.test.SumSubApplicantMain - [Jersey] Access token (json string): {"token":"_act-3f41cfac-6d9c-4c20-9c4e-765a1e226867","userId":"4b39a5bc-f038-4cf7-89c4-44e8277080a4"}
-2022-05-05 08:04:19.340 [main] INFO  com.sumsub.test.SumSubApplicantMain - [Feign] Access token (json string): {
-  "token" : "_act-38c0f334-b476-4628-85d1-7aa78dd48069",
-  "userId" : "a333199d-fd4e-44f4-9fdd-e8aee77aee51"
+2022-05-12 16:07:06.446 [main] INFO  com.sumsub.test.SumSubApplicantMain - [Jersey] Access token (json string): {"token":"_act-f0cf5cce-bdce-4720-a7fb-b4df1d87870f","userId":"4472cba0-ad93-4fa6-805b-6260a82ae0c4"}
+2022-05-12 16:07:06.589 [main] INFO  com.sumsub.test.SumSubApplicantMain - [Feign] Access token (json string): {
+  "token" : "_act-6a01326b-17d5-46f4-8911-cea1be5f62b3",
+  "userId" : "487df7e2-8dad-4b56-b6c8-2817684f8e6f"
 }
-2022-05-05 08:04:19.464 [main] INFO  com.sumsub.test.SumSubApplicantMain - [Jersey] Applicant status to pending: {"ok":1}
-2022-05-05 08:04:19.643 [main] INFO  com.sumsub.test.SumSubApplicantMain - [Feign] Applicant status to pending: {"ok": 1}
-2022-05-05 08:04:29.740 [main] INFO  com.sumsub.test.SumSubApplicantMain - [Jersey] Get an applicant info: {id=62735acf3df22f000196e18e, createdAt=2022-05-05 05:04:15, key=BXBMDYWZMEPQVY, clientId=alexeytupovtest, inspectionId=62735acf3df22f000196e18f, externalUserId=4b39a5bc-f038-4cf7-89c4-44e8277080a4, info={firstName=ЕВГЕНИЙ, firstNameEn=EVGENII, middleName=АЛЕКСАНДРОВИЧ, middleNameEn=ALEKSANDROVICH, lastName=ИМЯРЕК, lastNameEn=IMIAREK, country=RUS, idDocs=[{idDocType=PASSPORT, country=RUS, firstName=ЕВГЕНИЙ, firstNameEn=EVGENII, middleName=АЛЕКСАНДРОВИЧ, middleNameEn=ALEKSANDROVICH, lastName=ИМЯРЕК, lastNameEn=IMIAREK, issuedDate=2004-12-17, issueAuthorityCode=292-000, number=1104000000, uncertainFields=null, ocrDocTypes=null}]}, applicantPlatform=API, requiredIdDocs={docSets=[{idDocSetType=IDENTITY, types=[ID_CARD, PASSPORT, RESIDENCE_PERMIT, DRIVERS], subTypes=[FRONT_SIDE, BACK_SIDE]}]}, review={reviewId=ZMKNA, attemptId=WsRXR, attemptCnt=1, elapsedSincePendingMs=1341, elapsedSinceQueuedMs=1341, reprocessing=true, levelName=basic-kyc-level, createDate=2022-05-05 05:04:19+0000, reviewDate=2022-05-05 05:04:20+0000, reviewResult={reviewAnswer=GREEN}, reviewStatus=completed, priority=0, autoChecked=false}, type=individual} for data: 4b39a5bc-f038-4cf7-89c4-44e8277080a4
-2022-05-05 08:04:29.745 [main] INFO  com.sumsub.test.SumSubApplicantMain - [Jersey] An applicant info: name = EVGENII, last name = IMIAREK
-2022-05-05 08:04:29.888 [main] INFO  com.sumsub.test.SumSubApplicantMain - [Feign] Get an applicant info: {id=62735ad02d207200013b34bb, createdAt=2022-05-05 05:04:16, key=BXBMDYWZMEPQVY, clientId=alexeytupovtest, inspectionId=62735ad02d207200013b34bc, externalUserId=a333199d-fd4e-44f4-9fdd-e8aee77aee51, info={country=RUS, idDocs=[{idDocType=PASSPORT, country=RUS}]}, applicantPlatform=API, requiredIdDocs={docSets=[{idDocSetType=IDENTITY, types=[ID_CARD, PASSPORT, RESIDENCE_PERMIT, DRIVERS], subTypes=[FRONT_SIDE, BACK_SIDE]}]}, review={reviewId=EDDlB, attemptId=LEzkT, attemptCnt=1, elapsedSincePendingMs=183, elapsedSinceQueuedMs=183, reprocessing=true, levelName=basic-kyc-level, createDate=2022-05-05 05:04:19+0000, reviewDate=2022-05-05 05:04:19+0000, reviewResult={reviewAnswer=GREEN}, reviewStatus=completed, priority=0, autoChecked=false}, type=individual} for data: a333199d-fd4e-44f4-9fdd-e8aee77aee51
-2022-05-05 08:04:29.889 [main] INFO  com.sumsub.test.SumSubApplicantMain - [Feign] An applicant info: name = null, last name = null
+2022-05-12 16:07:06.860 [main] INFO  com.sumsub.test.SumSubApplicantMain - [Jersey] Applicant status to pending: {"ok":1}
+2022-05-12 16:07:07.044 [main] INFO  com.sumsub.test.SumSubApplicantMain - [Feign] Applicant status to pending: {"ok": 1}
+2022-05-12 16:07:22.203 [main] INFO  com.sumsub.test.SumSubApplicantMain - [Jersey] Get an applicant info: {id=627d06768a50b200019afed9, createdAt=2022-05-12 13:07:02, key=BXBMDYWZMEPQVY, clientId=alexeytupovtest, inspectionId=627d06768a50b200019afeda, externalUserId=4472cba0-ad93-4fa6-805b-6260a82ae0c4, info={firstName=ЕВГЕНИЙ, firstNameEn=EVGENII, middleName=АЛЕКСАНДРОВИЧ, middleNameEn=ALEKSANDROVICH, lastName=ИМЯРЕК, lastNameEn=IMIAREK, country=RUS, idDocs=[{idDocType=PASSPORT, country=RUS, firstName=ЕВГЕНИЙ, firstNameEn=EVGENII, middleName=АЛЕКСАНДРОВИЧ, middleNameEn=ALEKSANDROVICH, lastName=ИМЯРЕК, lastNameEn=IMIAREK, issuedDate=2004-12-17, issueAuthorityCode=292-000, number=1104000000, uncertainFields=null, ocrDocTypes=null}]}, applicantPlatform=API, requiredIdDocs={docSets=[{idDocSetType=IDENTITY, types=[ID_CARD, PASSPORT, RESIDENCE_PERMIT, DRIVERS], subTypes=[FRONT_SIDE, BACK_SIDE]}]}, review={reviewId=CCcpO, attemptId=uqZrj, attemptCnt=1, elapsedSincePendingMs=1936, elapsedSinceQueuedMs=1936, reprocessing=true, levelName=basic-kyc-level, createDate=2022-05-12 13:07:06+0000, reviewDate=2022-05-12 13:07:08+0000, reviewResult={reviewAnswer=GREEN}, reviewStatus=completed, priority=0, autoChecked=false}, type=individual} for data: 4472cba0-ad93-4fa6-805b-6260a82ae0c4
+2022-05-12 16:07:22.213 [main] INFO  com.sumsub.test.SumSubApplicantMain - [Jersey] An applicant info: name = EVGENII, last name = IMIAREK
+2022-05-12 16:07:22.371 [main] INFO  com.sumsub.test.SumSubApplicantMain - [Feign] Get an applicant info: {id=627d06768a50b200019afedd, createdAt=2022-05-12 13:07:02, key=BXBMDYWZMEPQVY, clientId=alexeytupovtest, inspectionId=627d06768a50b200019afede, externalUserId=487df7e2-8dad-4b56-b6c8-2817684f8e6f, info={firstName=ТИРИОН, firstNameEn=TIRION, middleName=ТАЙВИНОВИЧ, middleNameEn=TAIVINOVICH, lastName=ЛАННИСТЕР, lastNameEn=LANNISTER, dob=1982-09-12, country=RUS, idDocs=[{idDocType=PASSPORT, country=RUS, firstName=ТИРИОН, firstNameEn=TIRION, middleName=ТАЙВИНОВИЧ, middleNameEn=TAIVINOVICH, lastName=ЛАННИСТЕР, lastNameEn=LANNISTER, issuedDate=2004-12-17, issueAuthorityCode=291-000, validUntil=2027-12-11, number=1104000000, dob=1982-09-12, ocrDocTypes=null}]}, applicantPlatform=API, requiredIdDocs={docSets=[{idDocSetType=IDENTITY, types=[ID_CARD, PASSPORT, RESIDENCE_PERMIT, DRIVERS], subTypes=[FRONT_SIDE, BACK_SIDE]}]}, review={reviewId=cSbRC, attemptId=rtCjg, attemptCnt=1, elapsedSincePendingMs=2052, elapsedSinceQueuedMs=2052, reprocessing=true, levelName=basic-kyc-level, createDate=2022-05-12 13:07:07+0000, reviewDate=2022-05-12 13:07:09+0000, reviewResult={reviewAnswer=GREEN}, reviewStatus=completed, priority=0, autoChecked=false}, type=individual} for data: 487df7e2-8dad-4b56-b6c8-2817684f8e6f
+2022-05-12 16:07:22.371 [main] INFO  com.sumsub.test.SumSubApplicantMain - [Feign] An applicant info: name = TIRION, last name = LANNISTER
